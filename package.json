@@ -1,0 +1,26 @@
+{
+  "name": "penthouse-274-issue",
+  "version": "1.0.0",
+  "description": "This repo serves as an environment to reproduce the [penthouse issue 274](https://github.com/pocketjoso/penthouse/issues/274).",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "deelay": "^1.0.2",
+    "http-server": "^0.11.1",
+    "penthouse": "^1.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently \"http-server\" \"deelay\" \"node penthouse\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr0bz/penthouse-274-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dr0bz/penthouse-274-issue/issues"
+  },
+  "homepage": "https://github.com/dr0bz/penthouse-274-issue#readme"
+}
