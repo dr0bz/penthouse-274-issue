@@ -13,7 +13,7 @@ npm run start
 This will start:
 
 * https-server
-* deelay - i'll delay the image from index.html
+* deelay - it'll delay the image referenced in public/index.html
 * penhouse
 
 After 35 seconds you'll get the puppeteer timeout.
